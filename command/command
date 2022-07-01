@@ -1,0 +1,11 @@
+1、停止服务：sudo systemctl stop 服务名，例如：sudo systemctl stop zookeeper、sudo systemctl stop kafka
+2、解压tar.gz包，tar -zxvf xxxx.tar.gz
+3、查看进程的信息，例如pid等，ps -ef | grep java
+4、查看进程内存占用，top -p pid
+5、编辑文件，vi 文件名，然后按insert进行编辑，esc结束编辑
+6、退出编辑，不保存，:q!
+7、退出编辑，保存，:wq!
+8、文件夹赋权，sudo chmod -R 777 文件夹，为文件夹赋所有权限
+9、rpm文件安装，rpm -ivh .rpm文件
+10、查看服务状态，sudo systemctl status 服务名，例如：sudo systemctl status clickhouse-server
+11、Linux的本地静态主机名列表，vim /etc/hosts，hosts 文件包含了IP地址和主机名之间的映射，还包括主机名的别名
